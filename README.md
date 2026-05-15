@@ -1,7 +1,9 @@
 
 
+---
+
 ```md
-#  Product API (Node.js + Express + MongoDB + Multer)
+# Product API (Node.js + Express + MongoDB + Multer)
 
 ##  Overview
 
@@ -23,7 +25,7 @@ The project follows MVC architecture (Model–Controller–Routes) for clean and
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Node.js
 - Express.js
@@ -34,7 +36,7 @@ The project follows MVC architecture (Model–Controller–Routes) for clean and
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -62,7 +64,7 @@ project-folder/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -95,6 +97,9 @@ npm install express mongoose multer dotenv nodemon
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/wardrobe
 ```
+
+
+
 ---
 
 ### 5. Run the server
@@ -103,15 +108,11 @@ MONGO_URI=mongodb://localhost:27017/wardrobe
 node server.js
 ```
 
-OR
 
-```bash
-npx nodemon server.js
-```
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### ➤ Create Product (with Image Upload)
 
@@ -147,7 +148,7 @@ npx nodemon server.js
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 * Model → Defines schema
 * Controller → Handles logic
@@ -156,7 +157,7 @@ npx nodemon server.js
 
 ---
 
-## 📤 Functionality
+## Functionality
 
 * Stores product data in MongoDB
 * Uploads images using Multer
@@ -165,9 +166,11 @@ npx nodemon server.js
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Nandini Bhimineni
 
 ---
+
+
 
